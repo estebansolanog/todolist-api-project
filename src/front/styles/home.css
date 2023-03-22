@@ -5,3 +5,75 @@
     one more css for each page that will contain the selected used 
     on that page only (the ones not reused in other pages).
 */
+
+ul {
+  list-style-type: none;
+  margin-bottom: none;
+}
+
+#body {
+  margin-top: 60px;
+}
+
+.ocultar {
+  visibility: hidden;
+  border: none;
+  color: rgb(245, 62, 62);
+  background: white;
+}
+
+li:hover * {
+  visibility: visible;
+}
+
+.title {
+  font-size: 60px;
+  color: rgb(207, 207, 207);
+  margin-bottom: 30px;
+}
+
+.counter {
+  font-size: small;
+  color: rgb(194, 192, 192);
+  border: 1px solid rgb(216, 201, 201);
+  border-top: none;
+  padding: 8px;
+  box-shadow: 1px 1px 1px 0px gainsboro;
+}
+
+li {
+  border: 1px solid rgb(216, 201, 201);
+  border-top: none;
+  padding: 15px;
+  box-shadow: 1px 1px 1px 0px gainsboro;
+}
+
+#search-bar,
+#tarea {
+  border: 1px solid rgb(216, 201, 201);
+  padding: 15px;
+  box-shadow: 1px 1px 1px 0px gainsboro;
+}
+
+.container-todo-shadow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container-todo-shadow1 {
+  padding-top: 4px;
+  width: calc(100% - 6px);
+  box-shadow: 0px 1px 1px 1px gainsboro;
+}
+.container-todo-shadow2 {
+  padding-top: 4px;
+  width: calc(100% - 12px);
+  box-shadow: 0px 1px 1px 1px gainsboro;
+}
+
+.row {
+  width: 500px;
+  margin: auto;
+}
